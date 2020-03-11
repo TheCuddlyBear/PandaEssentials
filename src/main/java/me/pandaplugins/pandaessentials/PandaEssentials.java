@@ -1,6 +1,7 @@
 package me.pandaplugins.pandaessentials;
 
 import me.pandaplugins.pandaessentials.commands.kill;
+import me.pandaplugins.pandaessentials.commands.suicide;
 import me.pandaplugins.pandaessentials.commands.teleport;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -12,6 +13,7 @@ public final class PandaEssentials extends JavaPlugin {
         getLogger().info("The plugin has been enabled!");
         getCommand("kill").setExecutor(new kill());
         getCommand("teleport").setExecutor(new teleport());
+        getCommand("suicide").setExecutor(new suicide());
     }
 
     @Override
