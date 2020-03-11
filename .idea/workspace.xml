@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4244a818-a271-4c19-a00c-8166b742698b" name="Default Changelist" comment="Added arguments and permissions checks to teleport.java" />
+    <list default="true" id="4244a818-a271-4c19-a00c-8166b742698b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/teleport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/teleport.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +67,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -107,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583924038569</updated>
       <workItem from="1583924043742" duration="6000" />
-      <workItem from="1583941106130" duration="810000" />
+      <workItem from="1583941106130" duration="1644000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project upload">
       <created>1583928663070</created>
@@ -137,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583941321299</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added arguments and permissions checks to teleport.java">
+      <created>1583941964762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583941964762</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,18 +169,18 @@
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
     <state x="630" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1583924064140" />
-    <state x="399" y="95" key="CommitChangelistDialog2" timestamp="1583941696931">
+    <state x="399" y="95" key="CommitChangelistDialog2" timestamp="1583941963333">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
-    <state x="399" y="95" key="CommitChangelistDialog2/0.0.1563.1002@0.0.1563.1002" timestamp="1583941696931" />
+    <state x="399" y="95" key="CommitChangelistDialog2/0.0.1563.1002@0.0.1563.1002" timestamp="1583941963333" />
     <state x="562" y="242" key="FileChooserDialogImpl" timestamp="1583924162354">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
     <state x="562" y="242" key="FileChooserDialogImpl/0.0.1563.1002@0.0.1563.1002" timestamp="1583924162354" />
-    <state x="374" y="222" key="Vcs.Push.Dialog.v2" timestamp="1583941761591">
+    <state x="374" y="222" key="Vcs.Push.Dialog.v2" timestamp="1583941973949">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
-    <state x="374" y="222" key="Vcs.Push.Dialog.v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583941761591" />
+    <state x="374" y="222" key="Vcs.Push.Dialog.v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583941973949" />
     <state x="93" y="93" width="1377" height="816" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1583941809812">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
@@ -176,10 +189,10 @@
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
     <state x="477" y="325" key="com.intellij.ide.util.TipDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1583924043840" />
-    <state x="590" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583941781581">
+    <state x="590" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583942378848">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
-    <state x="590" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583941781581" />
+    <state x="590" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583942378848" />
     <state x="444" y="216" width="672" height="678" key="search.everywhere.popup" timestamp="1583941160494">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
