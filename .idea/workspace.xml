@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4244a818-a271-4c19-a00c-8166b742698b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/PandaEssentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/PandaEssentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/teleport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/teleport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,19 +19,52 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="development" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/development" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1Yyo8laCCZFU78QTHgSjwOYwFDE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -76,6 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583924038569</updated>
       <workItem from="1583924043742" duration="6000" />
+      <workItem from="1583941106130" duration="523000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project upload">
       <created>1583928663070</created>
@@ -98,36 +134,55 @@
       <option name="project" value="LOCAL" />
       <updated>1583929170384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated README.md">
+      <created>1583941321299</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583941321299</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project upload" />
     <MESSAGE value="Added kill command" />
     <MESSAGE value="Started teleport command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started teleport command" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583924064140">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
     <state x="630" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1583924064140" />
-    <state x="399" y="95" key="CommitChangelistDialog2" timestamp="1583929168743">
+    <state x="399" y="95" key="CommitChangelistDialog2" timestamp="1583941696931">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
-    <state x="399" y="95" key="CommitChangelistDialog2/0.0.1563.1002@0.0.1563.1002" timestamp="1583929168743" />
+    <state x="399" y="95" key="CommitChangelistDialog2/0.0.1563.1002@0.0.1563.1002" timestamp="1583941696931" />
     <state x="562" y="242" key="FileChooserDialogImpl" timestamp="1583924162354">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
     <state x="562" y="242" key="FileChooserDialogImpl/0.0.1563.1002@0.0.1563.1002" timestamp="1583924162354" />
-    <state x="374" y="222" key="Vcs.Push.Dialog.v2" timestamp="1583929176771">
+    <state x="374" y="222" key="Vcs.Push.Dialog.v2" timestamp="1583941761591">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
-    <state x="374" y="222" key="Vcs.Push.Dialog.v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583929176771" />
+    <state x="374" y="222" key="Vcs.Push.Dialog.v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583941761591" />
+    <state x="93" y="93" width="1377" height="816" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1583941809812">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="93" y="93" width="1377" height="816" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1583941809812" />
     <state x="477" y="325" key="com.intellij.ide.util.TipDialog" timestamp="1583924043840">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
     <state x="477" y="325" key="com.intellij.ide.util.TipDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1583924043840" />
+    <state x="590" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583941781581">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="590" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583941781581" />
     <state x="444" y="216" width="672" height="678" key="search.everywhere.popup" timestamp="1583941160494">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
