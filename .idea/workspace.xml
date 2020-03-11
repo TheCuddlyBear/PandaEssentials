@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4244a818-a271-4c19-a00c-8166b742698b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/PandaEssentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/PandaEssentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/teleport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/teleport.java" afterDir="false" />
-    </list>
+    <list default="true" id="4244a818-a271-4c19-a00c-8166b742698b" name="Default Changelist" comment="Added arguments and permissions checks to teleport.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583924038569</updated>
       <workItem from="1583924043742" duration="6000" />
-      <workItem from="1583941106130" duration="523000" />
+      <workItem from="1583941106130" duration="810000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project upload">
       <created>1583928663070</created>
@@ -152,7 +148,8 @@
     <MESSAGE value="Added kill command" />
     <MESSAGE value="Started teleport command" />
     <MESSAGE value="Updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
+    <MESSAGE value="Added arguments and permissions checks to teleport.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added arguments and permissions checks to teleport.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583924064140">
