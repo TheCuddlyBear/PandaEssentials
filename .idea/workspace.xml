@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4244a818-a271-4c19-a00c-8166b742698b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/suicide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/tphere.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/PandaEssentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/PandaEssentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/teleport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/teleport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583924038569</updated>
       <workItem from="1583924043742" duration="6000" />
-      <workItem from="1583941106130" duration="2535000" />
+      <workItem from="1583941106130" duration="4291000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project upload">
       <created>1583928663070</created>
@@ -159,7 +160,28 @@
       <option name="project" value="LOCAL" />
       <updated>1583945413105</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Made the suicide command">
+      <created>1583959114658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583959114658</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Registered commands inside of the plugin.yml">
+      <created>1583959136367</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583959136367</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated plugin version">
+      <created>1583959284659</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583959284659</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,25 +194,28 @@
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Added arguments and permissions checks to teleport.java" />
     <MESSAGE value="Finished the teleport command in teleport.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the teleport command in teleport.java" />
+    <MESSAGE value="Made the suicide command" />
+    <MESSAGE value="Registered commands inside of the plugin.yml" />
+    <MESSAGE value="Updated plugin version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated plugin version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583924064140">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
     <state x="630" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1583924064140" />
-    <state x="399" y="95" key="CommitChangelistDialog2" timestamp="1583959135074">
+    <state x="399" y="95" key="CommitChangelistDialog2" timestamp="1583959282365">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
-    <state x="399" y="95" key="CommitChangelistDialog2/0.0.1563.1002@0.0.1563.1002" timestamp="1583959135074" />
+    <state x="399" y="95" key="CommitChangelistDialog2/0.0.1563.1002@0.0.1563.1002" timestamp="1583959282365" />
     <state x="562" y="242" key="FileChooserDialogImpl" timestamp="1583924162354">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
     <state x="562" y="242" key="FileChooserDialogImpl/0.0.1563.1002@0.0.1563.1002" timestamp="1583924162354" />
-    <state x="374" y="222" key="Vcs.Push.Dialog.v2" timestamp="1583959144529">
+    <state x="374" y="222" key="Vcs.Push.Dialog.v2" timestamp="1583959286415">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
-    <state x="374" y="222" key="Vcs.Push.Dialog.v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583959144528" />
+    <state x="374" y="222" key="Vcs.Push.Dialog.v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583959286415" />
     <state x="93" y="93" width="1377" height="816" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1583941809812">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
