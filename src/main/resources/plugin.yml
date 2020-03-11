@@ -5,3 +5,18 @@ api-version: 1.13
 authors: [TheCuddlyBear]
 description: Plugin with essential commands like /kill
 website: pjanda.nl
+commands:
+  kill:
+    description: Kills the given player or yourself
+    usage: /<command>
+  teleport:
+    description: Teleports you to the given player
+    usage: /<command>
+    aliases: [tp]
+  tphere:
+    description: Teleports a player to you
+    usage: /<command>
+    aliases: [tph]
+  suicide:
+    description: Kill yourself
+    usage: /<command>

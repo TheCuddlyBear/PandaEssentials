@@ -10,7 +10,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
-public class teleport implements CommandExecutor {
+public class tphere implements CommandExecutor {
 
     Plugin plugin = PandaEssentials.getPlugin(PandaEssentials.class);
 
@@ -19,23 +19,20 @@ public class teleport implements CommandExecutor {
 
         if(sender instanceof Player){
             Player player = (Player) sender;
-            if(player.hasPermission("pandaessentials.teleport")){
-            if(args.length == 1){
+            if(player.hasPermission("pandaessentials.teleport.others")) {
+                if (args.length == 1) {
                     Player target = Bukkit.getPlayerExact(args[0]);
-                    if(target != null){
-                        Location targetLocation = target.getLocation();
-                        player.teleport(targetLocation);
-                    }else{
-                        player.sendMessage(ChatColor.RED + "That player does not exist!");
-                    }
-                } else{
-                player.sendMessage(ChatColor.RED + "Invalid arguments!");
-                player.sendMessage(ChatColor.RED + "/teleport <playername>");
+                    Location playerLocation = player.getLocation();
+
+                    target.teleport(playerLocation);
+                } else {
+                    player.sendMessage(ChatColor.RED + "Invalid arguments!");
+                    player.sendMessage(ChatColor.RED + "/tphere <playername>");
                 }
-            } else {
+            }else{
                 player.sendMessage(ChatColor.RED + "Invalid permissions!");
             }
-        }else {
+        }else{
             plugin.getLogger().severe("This command has to be run by a player");
         }
 
