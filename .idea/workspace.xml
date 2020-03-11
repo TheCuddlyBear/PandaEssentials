@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4244a818-a271-4c19-a00c-8166b742698b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yyo8laCCZFU78QTHgSjwOYwFDE" />
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="pandaessentials build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4244a818-a271-4c19-a00c-8166b742698b" name="Default Changelist" comment="" />
+      <created>1583924038569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583924038569</updated>
+      <workItem from="1583924043742" duration="6000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial project upload">
+      <created>1583928663070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583928663070</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added kill command">
+      <created>1583928793106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583928793106</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Started teleport command">
+      <created>1583929170384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583929170384</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial project upload" />
+    <MESSAGE value="Added kill command" />
+    <MESSAGE value="Started teleport command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started teleport command" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="630" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583924064140">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="630" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1583924064140" />
+    <state x="399" y="95" key="CommitChangelistDialog2" timestamp="1583929168743">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="399" y="95" key="CommitChangelistDialog2/0.0.1563.1002@0.0.1563.1002" timestamp="1583929168743" />
+    <state x="562" y="242" key="FileChooserDialogImpl" timestamp="1583924162354">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="562" y="242" key="FileChooserDialogImpl/0.0.1563.1002@0.0.1563.1002" timestamp="1583924162354" />
+    <state x="374" y="222" key="Vcs.Push.Dialog.v2" timestamp="1583929176771">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="374" y="222" key="Vcs.Push.Dialog.v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583929176771" />
+    <state x="477" y="325" key="com.intellij.ide.util.TipDialog" timestamp="1583924043840">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="477" y="325" key="com.intellij.ide.util.TipDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1583924043840" />
+    <state x="284" y="292" width="868" height="418" key="svn.repositoryBrowser" timestamp="1583924176455">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="284" y="292" width="868" height="418" key="svn.repositoryBrowser/0.0.1563.1002@0.0.1563.1002" timestamp="1583924176455" />
+    <state x="481" y="276" key="svn4idea.import.options" timestamp="1583924174635">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="481" y="276" key="svn4idea.import.options/0.0.1563.1002@0.0.1563.1002" timestamp="1583924174635" />
+  </component>
+</project>

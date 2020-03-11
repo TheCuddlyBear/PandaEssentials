@@ -1,0 +1,7 @@
+name: PandaEssentials
+version: ${project.version}
+main: me.pandaplugins.pandaessentials.PandaEssentials
+api-version: 1.13
+authors: [TheCuddlyBear]
+description: Plugin with essential commands like /kill
+website: pjanda.nl
