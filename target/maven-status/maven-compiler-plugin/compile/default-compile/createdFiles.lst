@@ -1,2 +1,4 @@
 me\pandaplugins\pandaessentials\PandaEssentials.class
 me\pandaplugins\pandaessentials\commands\kill.class
+me\pandaplugins\pandaessentials\commands\suicide.class
+me\pandaplugins\pandaessentials\commands\teleport.class

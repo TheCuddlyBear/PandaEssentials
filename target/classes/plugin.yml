@@ -1,7 +1,18 @@
 name: PandaEssentials
-version: 0.0.1-SNAPSHOT
+version: 0.0.2-SNAPSHOT
 main: me.pandaplugins.pandaessentials.PandaEssentials
 api-version: 1.13
 authors: [TheCuddlyBear]
 description: Plugin with essential commands like /kill
 website: pjanda.nl
+commands:
+  kill:
+    description: Kills the given player or yourself
+    usage: /<command>
+  teleport:
+    description: Teleports you to the given player or teleports another player
+    usage: /<command>
+    aliases: [tp]
+  suicide:
+    description: Kill yourself
+    usage: /<command>

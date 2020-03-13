@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4244a818-a271-4c19-a00c-8166b742698b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/tphere.java" afterDir="false" />
+    <list default="true" id="4244a818-a271-4c19-a00c-8166b742698b" name="Default Changelist" comment="Split teleport.java into teleport command and tphere command">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/strike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/PandaEssentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/PandaEssentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/teleport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/pandaplugins/pandaessentials/commands/teleport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/pandaplugins/pandaessentials/PandaEssentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/pandaplugins/pandaessentials/PandaEssentials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="development" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,7 +117,9 @@
       <option name="presentableId" value="Default" />
       <updated>1583924038569</updated>
       <workItem from="1583924043742" duration="6000" />
-      <workItem from="1583941106130" duration="4291000" />
+      <workItem from="1583941106130" duration="4469000" />
+      <workItem from="1584021797114" duration="82000" />
+      <workItem from="1584096813947" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project upload">
       <created>1583928663070</created>
@@ -181,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583959284659</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Split teleport.java into teleport command and tphere command">
+      <created>1583961714269</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583961714270</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,37 +207,58 @@
     <MESSAGE value="Made the suicide command" />
     <MESSAGE value="Registered commands inside of the plugin.yml" />
     <MESSAGE value="Updated plugin version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated plugin version" />
+    <MESSAGE value="Split teleport.java into teleport command and tphere command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Split teleport.java into teleport command and tphere command" />
   </component>
   <component name="WindowStateProjectService">
     <state x="630" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583924064140">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
     <state x="630" y="390" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1583924064140" />
-    <state x="399" y="95" key="CommitChangelistDialog2" timestamp="1583959282365">
+    <state x="399" y="95" key="CommitChangelistDialog2" timestamp="1583961772479">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
-    <state x="399" y="95" key="CommitChangelistDialog2/0.0.1563.1002@0.0.1563.1002" timestamp="1583959282365" />
+    <state x="399" y="95" key="CommitChangelistDialog2/0.0.1563.1002@0.0.1563.1002" timestamp="1583961772479" />
     <state x="562" y="242" key="FileChooserDialogImpl" timestamp="1583924162354">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
     <state x="562" y="242" key="FileChooserDialogImpl/0.0.1563.1002@0.0.1563.1002" timestamp="1583924162354" />
-    <state x="374" y="222" key="Vcs.Push.Dialog.v2" timestamp="1583959286415">
+    <state width="760" height="269" key="GridCell.Tab.0.bottom" timestamp="1583961871615">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
-    <state x="374" y="222" key="Vcs.Push.Dialog.v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583959286415" />
+    <state width="760" height="269" key="GridCell.Tab.0.bottom/0.0.1563.1002@0.0.1563.1002" timestamp="1583961871615" />
+    <state width="760" height="269" key="GridCell.Tab.0.center" timestamp="1583961871614">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state width="760" height="269" key="GridCell.Tab.0.center/0.0.1563.1002@0.0.1563.1002" timestamp="1583961871614" />
+    <state width="760" height="269" key="GridCell.Tab.0.left" timestamp="1583961871614">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state width="760" height="269" key="GridCell.Tab.0.left/0.0.1563.1002@0.0.1563.1002" timestamp="1583961871614" />
+    <state width="760" height="269" key="GridCell.Tab.0.right" timestamp="1583961871615">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state width="760" height="269" key="GridCell.Tab.0.right/0.0.1563.1002@0.0.1563.1002" timestamp="1583961871615" />
+    <state x="374" y="222" key="Vcs.Push.Dialog.v2" timestamp="1583961841478">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="374" y="222" key="Vcs.Push.Dialog.v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583961841478" />
     <state x="93" y="93" width="1377" height="816" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1583941809812">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
     <state x="93" y="93" width="1377" height="816" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1583941809812" />
-    <state x="477" y="325" key="com.intellij.ide.util.TipDialog" timestamp="1583924043840">
+    <state x="477" y="325" key="com.intellij.ide.util.TipDialog" timestamp="1584021794973">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
-    <state x="477" y="325" key="com.intellij.ide.util.TipDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1583924043840" />
-    <state x="590" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583942378848">
+    <state x="477" y="325" key="com.intellij.ide.util.TipDialog/0.0.1563.1002@0.0.1563.1002" timestamp="1584021794973" />
+    <state x="590" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584096849563">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
-    <state x="590" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1563.1002@0.0.1563.1002" timestamp="1583942378848" />
+    <state x="590" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1563.1002@0.0.1563.1002" timestamp="1584096849563" />
+    <state x="209" y="171" key="new project wizard" timestamp="1584021876087">
+      <screen x="0" y="0" width="1563" height="1002" />
+    </state>
+    <state x="209" y="171" key="new project wizard/0.0.1563.1002@0.0.1563.1002" timestamp="1584021876087" />
     <state x="444" y="216" width="672" height="678" key="search.everywhere.popup" timestamp="1583941160494">
       <screen x="0" y="0" width="1563" height="1002" />
     </state>
