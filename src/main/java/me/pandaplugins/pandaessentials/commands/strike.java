@@ -6,6 +6,7 @@ import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
@@ -21,6 +22,7 @@ public class strike implements CommandExecutor {
             Block target = player.getTargetBlockExact(30);
             Location loc = target.getLocation();
 
+            player.getWorld().spawnEntity(loc, EntityType.LIGHTNING);
 
         }else{
             plugin.getLogger().severe("This command has be run as a player");
