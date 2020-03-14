@@ -20,3 +20,6 @@ commands:
   suicide:
     description: Kill yourself
     usage: /<command>
+  armorstd:
+    description: Make changes to armorstands
+    usage: /<command>

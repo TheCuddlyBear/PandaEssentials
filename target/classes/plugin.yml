@@ -10,9 +10,16 @@ commands:
     description: Kills the given player or yourself
     usage: /<command>
   teleport:
-    description: Teleports you to the given player or teleports another player
+    description: Teleports you to the given player
     usage: /<command>
     aliases: [tp]
+  tphere:
+    description: Teleports a player to you
+    usage: /<command>
+    aliases: [tph]
   suicide:
     description: Kill yourself
+    usage: /<command>
+  armorstd:
+    description: Make changes to armorstands
     usage: /<command>
