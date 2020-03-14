@@ -1,6 +1,7 @@
 package me.pandaplugins.pandaessentials;
 
 import me.pandaplugins.pandaessentials.commands.*;
+import me.pandaplugins.pandaessentials.events.ArmorStandMenuHandler;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class PandaEssentials extends JavaPlugin {
@@ -14,6 +15,7 @@ public final class PandaEssentials extends JavaPlugin {
         getCommand("suicide").setExecutor(new suicide());
         getCommand("tphere").setExecutor(new tphere());
         getCommand("armorstd").setExecutor(new armorstand());
+        // getServer().getPluginManager().registerEvents(new ArmorStandMenuHandler(), this); - Work in progress! Use command instead
     }
 
     @Override

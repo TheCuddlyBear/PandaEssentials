@@ -1,4 +1,5 @@
 me\pandaplugins\pandaessentials\commands\teleport.class
+me\pandaplugins\pandaessentials\events\ArmorStandMenuHandler.class
 me\pandaplugins\pandaessentials\commands\strike.class
 me\pandaplugins\pandaessentials\PandaEssentials.class
 me\pandaplugins\pandaessentials\commands\armorstand.class
