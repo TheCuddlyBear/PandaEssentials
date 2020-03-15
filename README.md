@@ -16,4 +16,4 @@ Permissions
 How to work on it?
 ------------------
 
-This project is made with IntelliJ IDEA
+This project is made with IntelliJ IDEA.
