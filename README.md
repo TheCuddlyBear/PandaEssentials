@@ -1,7 +1,7 @@
 PandaEssentials
 =======
 
-**DEVELOPMENT BRANCH DON'T USE A COMMERCIAL SERVER**
+**DEVELOPMENT BRANCH DON'T USE ON A COMMERCIAL SERVER**
 
 A spigot plugin with essential commands like /kill
 
