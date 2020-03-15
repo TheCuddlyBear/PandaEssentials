@@ -27,6 +27,7 @@ public class MenuItemClick implements Listener {
                 if(armorStand.hasArms()){
                     armorStand.setArms(false);
                     e.getWhoClicked().closeInventory();
+                    e.getWhoClicked().sendMessage("Hello");
                 }else{
                     armorStand.setArms(true);
                     e.getWhoClicked().closeInventory();
