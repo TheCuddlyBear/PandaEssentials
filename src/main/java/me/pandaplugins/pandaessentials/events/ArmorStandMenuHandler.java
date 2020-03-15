@@ -13,6 +13,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 public class ArmorStandMenuHandler implements Listener {
 
@@ -25,6 +26,7 @@ public class ArmorStandMenuHandler implements Listener {
                         e.setCancelled(true);
                         Player player = (Player) e.getDamager();
                         ArmorStand armorStand = (ArmorStand) e.getEntity();
+                        UUID standUUID = e.getEntity().getUniqueId();
 
                         Inventory gui = Bukkit.createInventory(player, 18, "Armor Stand Editor");
 
@@ -37,8 +39,7 @@ public class ArmorStandMenuHandler implements Listener {
                             setarms_lore.add(ChatColor.GRAY + "Currently set to: true");
                             setarms_meta.setLore(setarms_lore);
                             setarms.setItemMeta(setarms_meta);
-                            ItemStack[] items = {setarms};
-                            gui.setContents(items);
+                            gui.setItem(0, setarms);
 
                         } else {
                             ItemStack setarms = new ItemStack(Material.RED_WOOL);
@@ -49,9 +50,16 @@ public class ArmorStandMenuHandler implements Listener {
                             setarms_lore.add(ChatColor.GRAY + "Currently set to: false");
                             setarms_meta.setLore(setarms_lore);
                             setarms.setItemMeta(setarms_meta);
-                            ItemStack[] items = {setarms};
-                            gui.setContents(items);
+                            gui.setItem(0, setarms);
                         }
+
+                        ItemStack uuid = new ItemStack(Material.GRAY_STAINED_GLASS);
+
+                        ItemMeta uuid_meta = uuid.getItemMeta();
+                        uuid_meta.setDisplayName(String.valueOf(standUUID));
+                        uuid.setItemMeta(uuid_meta);
+
+                        gui.setItem(17, uuid);
 
                         player.openInventory(gui);
                     }
@@ -59,28 +67,4 @@ public class ArmorStandMenuHandler implements Listener {
             }
         }
     }
-
-    @EventHandler
-    public void onMenuItemClick(InventoryClickEvent e){
-        if(e.getView().getTitle().equalsIgnoreCase("Armor Stand Editor")){
-            if(e.getCurrentItem().getItemMeta().getDisplayName().equalsIgnoreCase("Set Arms")){
-                for(Entity entity : e.getWhoClicked().getNearbyEntities(1, 1, 1)){
-                if(entity.getType() == EntityType.ARMOR_STAND){
-                    ArmorStand armorStand = (ArmorStand) entity;
-
-                    if(armorStand.hasArms()){
-                        armorStand.setArms(false);
-                        e.getWhoClicked().closeInventory();
-                    }else{
-                        armorStand.setArms(true);
-                        e.getWhoClicked().closeInventory();
-                    }
-                }
-            }
-            }
-
-            e.setCancelled(true);
-        }
-    }
-
 }
