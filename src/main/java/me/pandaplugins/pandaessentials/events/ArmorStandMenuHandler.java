@@ -40,6 +40,7 @@ public class ArmorStandMenuHandler implements Listener {
 
                                 makeArmsItem(armorStand, gui);
                                 makeBasePlateItem(armorStand, gui);
+                                makeGravityItem(armorStand, gui);
 
                                 getUUID(String.valueOf(standUUID), gui);
 
@@ -108,6 +109,31 @@ public class ArmorStandMenuHandler implements Listener {
             setbaseplate_meta.setLore(setbaseplate_lore);
             setbaseplate.setItemMeta(setbaseplate_meta);
             gui.setItem(1, setbaseplate);
+        }
+    }
+
+    public void makeGravityItem(ArmorStand armorStand, Inventory gui){
+        if (armorStand.hasGravity()) {
+            ItemStack setgravity = new ItemStack(Material.GREEN_WOOL);
+
+            ItemMeta setgravity_meta = setgravity.getItemMeta();
+            setgravity_meta.setDisplayName(ChatColor.GREEN + "Set Gravity");
+            ArrayList<String> setgravity_lore = new ArrayList<>();
+            setgravity_lore.add(ChatColor.GRAY + "Currently set to: true");
+            setgravity_meta.setLore(setgravity_lore);
+            setgravity.setItemMeta(setgravity_meta);
+            gui.setItem(2, setgravity);
+
+        } else {
+            ItemStack setgravity = new ItemStack(Material.RED_WOOL);
+
+            ItemMeta setgravity_meta = setgravity.getItemMeta();
+            setgravity_meta.setDisplayName(ChatColor.RED + "Set Gravity");
+            ArrayList<String> setgravity_lore = new ArrayList<>();
+            setgravity_lore.add(ChatColor.GRAY + "Currently set to: false");
+            setgravity_meta.setLore(setgravity_lore);
+            setgravity.setItemMeta(setgravity_meta);
+            gui.setItem(2, setgravity);
         }
     }
 

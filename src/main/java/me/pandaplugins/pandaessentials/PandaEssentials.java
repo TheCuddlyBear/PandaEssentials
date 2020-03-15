@@ -3,7 +3,6 @@ package me.pandaplugins.pandaessentials;
 import me.pandaplugins.pandaessentials.commands.*;
 import me.pandaplugins.pandaessentials.events.ArmorStandMenuHandler;
 import me.pandaplugins.pandaessentials.events.MenuItemClick;
-import me.pandaplugins.pandaessentials.recipes.armorTool;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;

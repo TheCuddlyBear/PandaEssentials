@@ -3,9 +3,12 @@ package me.pandaplugins.pandaessentials.events;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.ArmorStand;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.event.inventory.InventoryType;
+import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 
@@ -50,14 +53,17 @@ public class MenuItemClick implements Listener {
                         armorStand.setBasePlate(true);
                         e.getWhoClicked().closeInventory();
                         break;
+                    case "§aSet Gravity":
+                        armorStand.setGravity(false);
+                        e.getWhoClicked().closeInventory();
+                        break;
+                    case "§cSet Gravity":
+                        armorStand.setGravity(true);
+                        e.getWhoClicked().closeInventory();
+                        break;
                 }
 
                 e.setCancelled(true);
             }
-    }
-
-    public void onSetBody(int x, int y, int z, UUID uuid){
-
-    }
-
+        }
 }
