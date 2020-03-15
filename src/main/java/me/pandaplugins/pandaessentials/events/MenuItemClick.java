@@ -7,34 +7,57 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.plugin.Plugin;
 
 import java.util.Objects;
 import java.util.UUID;
 
 public class MenuItemClick implements Listener {
 
+    private Plugin plugin;
+
+    public MenuItemClick(Plugin plugin) {
+        this.plugin = plugin;
+    }
+
     @EventHandler
-    public void onMenuItemClick(InventoryClickEvent e){
-        if(e.getView().getTitle().equalsIgnoreCase("Armor Stand Editor")){
-            if(e.getCurrentItem().getType().equals(Material.GREEN_WOOL) || e.getCurrentItem().getType().equals(Material.RED_WOOL)){
+    public void onMenuItemClick(InventoryClickEvent e) {
+            if (e.getView().getTitle().equalsIgnoreCase("Armor Stand Editor")) {
+
+                // Get UUID
                 ItemStack uuidItem = Objects.requireNonNull(e.getClickedInventory()).getItem(17);
                 String itemName = uuidItem.getItemMeta().getDisplayName();
 
                 UUID itemUUID = java.util.UUID.fromString(itemName);
 
-                ArmorStand armorStand = (ArmorStand) Bukkit.getEntity(itemUUID);
+                ArmorStand armorStand = (ArmorStand) Bukkit.getEntity(itemUUID); // Cast the armor stand
 
-                if(armorStand.hasArms()){
-                    armorStand.setArms(false);
-                    e.getWhoClicked().closeInventory();
-                    e.getWhoClicked().sendMessage("Hello");
-                }else{
-                    armorStand.setArms(true);
-                    e.getWhoClicked().closeInventory();
+                // Switch for the items that are clicked
+                switch(e.getCurrentItem().getItemMeta().getDisplayName()){
+                    case "§aSet Arms":
+                        armorStand.setArms(false);
+                        e.getWhoClicked().closeInventory();
+                        break;
+                    case "§cSet Arms":
+                        armorStand.setArms(true);
+                        e.getWhoClicked().closeInventory();
+                        break;
+                    case "§aSet Baseplate":
+                        armorStand.setBasePlate(false);
+                        e.getWhoClicked().closeInventory();
+                        break;
+                    case "§cSet Baseplate":
+                        armorStand.setBasePlate(true);
+                        e.getWhoClicked().closeInventory();
+                        break;
                 }
+
+                e.setCancelled(true);
             }
-            e.setCancelled(true);
-        }
+    }
+
+    public void onSetBody(int x, int y, int z, UUID uuid){
+
     }
 
 }

@@ -1,9 +1,11 @@
+me\pandaplugins\pandaessentials\commands\ArmorStandToolCommand.class
 me\pandaplugins\pandaessentials\events\MenuItemClick.class
+me\pandaplugins\pandaessentials\recipes\armorTool.class
 me\pandaplugins\pandaessentials\commands\teleport.class
-me\pandaplugins\pandaessentials\events\ArmorStandMenuHandler.class
-me\pandaplugins\pandaessentials\commands\strike.class
 me\pandaplugins\pandaessentials\PandaEssentials.class
 me\pandaplugins\pandaessentials\commands\armorstand.class
-me\pandaplugins\pandaessentials\commands\kill.class
 me\pandaplugins\pandaessentials\commands\tphere.class
+me\pandaplugins\pandaessentials\events\ArmorStandMenuHandler.class
+me\pandaplugins\pandaessentials\commands\strike.class
+me\pandaplugins\pandaessentials\commands\kill.class
 me\pandaplugins\pandaessentials\commands\suicide.class
