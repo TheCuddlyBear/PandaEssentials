@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/PandaEssentials.iml" filepath="$PROJECT_DIR$/PandaEssentials.iml" />
       <module fileurl="file://$PROJECT_DIR$/pandaessentials.iml" filepath="$PROJECT_DIR$/pandaessentials.iml" />
     </modules>
   </component>
