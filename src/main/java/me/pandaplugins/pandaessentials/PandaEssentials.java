@@ -50,6 +50,7 @@ public final class PandaEssentials extends JavaPlugin {
         armorTool.setIngredient('A', Material.ARMOR_STAND);
 
         getServer().addRecipe(armorTool);
+        // End
 
         //Config
         getConfig().options().copyDefaults();

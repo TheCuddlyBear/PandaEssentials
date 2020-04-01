@@ -61,6 +61,22 @@ public class MenuItemClick implements Listener {
                         armorStand.setGravity(true);
                         e.getWhoClicked().closeInventory();
                         break;
+                    case "§aSet Glowing":
+                        armorStand.setGlowing(false);
+                        e.getWhoClicked().closeInventory();
+                        break;
+                    case "§cSet Glowing":
+                        armorStand.setGlowing(true);
+                        e.getWhoClicked().closeInventory();
+                        break;
+                    case "§aSet if marker":
+                        armorStand.setMarker(false);
+                        e.getWhoClicked().closeInventory();
+                        break;
+                    case "§cSet if marker":
+                        armorStand.setMarker(true);
+                        e.getWhoClicked().closeInventory();
+                        break;
                 }
 
                 e.setCancelled(true);

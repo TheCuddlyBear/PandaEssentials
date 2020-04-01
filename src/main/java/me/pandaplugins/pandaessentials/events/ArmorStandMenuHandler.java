@@ -136,4 +136,55 @@ public class ArmorStandMenuHandler implements Listener {
         }
     }
 
+    public void makeGlowingItem(ArmorStand armorStand, Inventory gui){
+        if (armorStand.hasGravity()) {
+            ItemStack setglowing = new ItemStack(Material.GREEN_WOOL);
+
+            ItemMeta setglowing_meta = setglowing.getItemMeta();
+            setglowing_meta.setDisplayName(ChatColor.GREEN + "Set Glowing");
+            ArrayList<String> setglowing_lore = new ArrayList<>();
+            setglowing_lore.add(ChatColor.GRAY + "Currently set to: true");
+            setglowing_meta.setLore(setglowing_lore);
+            setglowing.setItemMeta(setglowing_meta);
+            gui.setItem(3, setglowing);
+
+        } else {
+            ItemStack setglowing = new ItemStack(Material.GREEN_WOOL);
+
+            ItemMeta setglowing_meta = setglowing.getItemMeta();
+            setglowing_meta.setDisplayName(ChatColor.RED + "Set Glowing");
+            ArrayList<String> setglowing_lore = new ArrayList<>();
+            setglowing_lore.add(ChatColor.GRAY + "Currently set to: false");
+            setglowing_meta.setLore(setglowing_lore);
+            setglowing.setItemMeta(setglowing_meta);
+            gui.setItem(3, setglowing);
+        }
+    }
+
+    public void makeMarkerItem(ArmorStand armorStand, Inventory gui){
+        if (armorStand.hasGravity()) {
+            ItemStack setmarker = new ItemStack(Material.GREEN_WOOL);
+
+            ItemMeta setmarker_meta = setmarker.getItemMeta();
+            setmarker_meta.setDisplayName(ChatColor.GREEN + "Set if marker");
+            ArrayList<String> setmarker_lore = new ArrayList<>();
+            setmarker_lore.add(ChatColor.GRAY + "Currently set to: true");
+            setmarker_meta.setLore(setmarker_lore);
+            setmarker.setItemMeta(setmarker_meta);
+            gui.setItem(4, setmarker);
+
+        } else {
+            ItemStack setmarker = new ItemStack(Material.GREEN_WOOL);
+
+            ItemMeta setmarker_meta = setmarker.getItemMeta();
+            setmarker_meta.setDisplayName(ChatColor.RED + "Set if marker");
+            ArrayList<String> setmarker_lore = new ArrayList<>();
+            setmarker_lore.add(ChatColor.GRAY + "Currently set to: false");
+            setmarker_meta.setLore(setmarker_lore);
+            setmarker.setItemMeta(setmarker_meta);
+            gui.setItem(4, setmarker);
+
+        }
+    }
+
 }
