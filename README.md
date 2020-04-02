@@ -1,19 +1,17 @@
-PandaEssentials
-=======
+# PandaEssentials
 
 **DEVELOPMENT BRANCH DON'T USE ON A COMMERCIAL SERVER**
 
 A spigot plugin with essential commands like /kill
 
-Permissions
------------
-/kill       pandaessentials.kill
+## Permissions
 
-/teleport   pandaessentials.teleport & pandaessentials.teleport.others
+/kill pandaessentials.kill
 
-/armorstd   pandaessentials.armorstand
+/teleport pandaessentials.teleport & pandaessentials.teleport.others
 
-How to work on it?
-------------------
+/armorstd pandaessentials.armorstand
+
+## How to work on it?
 
 This project is made with IntelliJ IDEA.

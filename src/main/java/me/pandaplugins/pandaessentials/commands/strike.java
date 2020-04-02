@@ -12,22 +12,23 @@ import org.bukkit.plugin.Plugin;
 
 public class strike implements CommandExecutor {
 
-    Plugin plugin = PandaEssentials.getPlugin(PandaEssentials.class);
+  Plugin plugin = PandaEssentials.getPlugin(PandaEssentials.class);
 
-    @Override
-    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+  @Override
+  public boolean onCommand(CommandSender sender, Command command, String label,
+                           String[] args) {
 
-        if(sender instanceof Player){
-            Player player = (Player) sender;
-            Block target = player.getTargetBlockExact(30);
-            Location loc = target.getLocation();
+    if (sender instanceof Player) {
+      Player player = (Player)sender;
+      Block target = player.getTargetBlockExact(30);
+      Location loc = target.getLocation();
 
-            player.getWorld().spawnEntity(loc, EntityType.LIGHTNING);
+      player.getWorld().spawnEntity(loc, EntityType.LIGHTNING);
 
-        }else{
-            plugin.getLogger().severe("This command has be run as a player");
-        }
-
-        return true;
+    } else {
+      plugin.getLogger().severe("This command has be run as a player");
     }
+
+    return true;
+  }
 }
